@@ -18,13 +18,16 @@ int main()
     orang mhs;
     cout << "Nama : ";
     cin >> mhs.nama;
-    cout << "Alamat : ";
-    cin >> mhs.alamat;
+    cout << "Alamat Desa : ";
+    cin >> mhs.alamat.desa;
+    cout << "Alamat Kota : ";
+    cin >> mhs.alamat.kota;
     cout << "Umur : ";
     cin >> mhs.umur;
     cout << endl;
     // tampilkan
     cout << "Nama : " << mhs.nama << endl;
-    cout << "Alamat : " << mhs.alamat << endl;
+    cout << "Desa : " << mhs.alamat.desa << endl;
+    cout << "Kota : " << mhs.alamat.kota << endl;
     cout << "Umur : " << mhs.umur << endl;
 }

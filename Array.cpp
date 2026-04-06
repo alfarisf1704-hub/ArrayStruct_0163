@@ -22,6 +22,7 @@ int main()
     cin >> kamu[4];
     cout << endl;
 
+    // menampilkan satu persatu
     cout << "Data Pertama = " << kamu[0] << endl;
     cout << "Data Kedua = " << kamu[1] << endl;
     cout << "Data Ketiga = " << kamu[2] << endl;
@@ -37,4 +38,7 @@ int main()
     }
     cout << endl;
     // menampilkan dengan menggunakan perulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+    }
 }

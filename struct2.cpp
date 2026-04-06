@@ -4,8 +4,13 @@ using namespace std;
 struct orang
 {
     string nama;
-    string alamat;
+    detailAlamat alamat;
     int umur;
+};
+struct detailAlamat
+{
+    string desa;
+    string kota;
 };
 
 int main()
